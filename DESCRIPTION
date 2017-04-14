@@ -1,11 +1,13 @@
 Package: testRscalaPackage
 Type: Package
 Title: Stupid Title
-Version: 1.0
+Version: 0.1
 Date: 2017-04-13
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
 Description: More about what it does (maybe more than one line)
+Depends:
+    R (>= 3.0.0)
 License: What license is it under?
 RoxygenNote: 6.0.1.9000
 Imports: rscala
