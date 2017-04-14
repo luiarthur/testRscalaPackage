@@ -6,7 +6,8 @@ Test to see if an RScala package will load properly
 - [Making first R package](http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html)
 - [onLoad](http://r-pkgs.had.co.nz/r.html)
 - [Simple Roxygen2 generated package](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
-
+- [rscala documentation](https://cran.r-project.org/web/packages/rscala/rscala.pdf).
+    - read especially about memory recovery and the `scalaDef` function provided in R
 
 # R Package Skeleton Generation:
 First, install the required packages by:
