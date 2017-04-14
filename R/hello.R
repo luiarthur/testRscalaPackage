@@ -1,4 +1,5 @@
 hello <- function(x) {
+  #' hello
   #' @export
 
   #rscala::scalaEval(s,paste0('val out = Hello.hello("@{x}")'))
