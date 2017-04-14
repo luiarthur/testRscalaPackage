@@ -63,5 +63,3 @@ You are ready to use your library
 ```R
 hello("Arthur")
 ```
-
-
