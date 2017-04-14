@@ -3,7 +3,6 @@ hello <- function(x) {
   #' @export
   #print(paste("Hello",x))
   
-  s %~% 'Hello.hello("asd")'
   rscala::scalaEval(s,'val out = Hello.hello("asd")')
   rscala::scalaGet(s,"out")
   out
