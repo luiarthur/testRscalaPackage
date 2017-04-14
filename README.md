@@ -25,6 +25,12 @@ execute in R
 devtools::create("myfirstpackage")
 ```
 
+Add the line
+```bash
+Imports: rscala
+```
+to `DEPENDENCIES`.
+
 Make sure to provide a title in each of the R files in the
 `R` directory. You do this by adding the comments
 in the first line of the function as follow:
