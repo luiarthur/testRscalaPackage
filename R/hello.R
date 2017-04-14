@@ -3,5 +3,8 @@ hello <- function(x) {
   #' @export
   #print(paste("Hello",x))
   
-  testRscalaPackage::s%~%'Hello.hello("asd")'
+  s %~% 'Hello.hello("asd")'
+  rscala::scalaEval(s,'val out = Hello.hello("asd")')
+  rscala::scalaGet(s,"out")
+  out
 }
