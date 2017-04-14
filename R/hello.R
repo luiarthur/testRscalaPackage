@@ -3,6 +3,8 @@ hello <- function(x) {
   #' @export
   print("I am HERE")
   
-  # rscala::scala(s,'"xy"') This works
-  rscala::scalaEval(s,'Hello.hello("asd")')
+  # This doesn't work?!
+  #rscala::scalaEval(s,'val out = Hello.hello("asd")')
+  rscala::scalaEval(s,'val out = "xy"')
+  rscala::scalaGet(s,"out")
 }
