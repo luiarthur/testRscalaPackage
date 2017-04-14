@@ -2,9 +2,12 @@ hello <- function() {
   #' hello
   #' @export
   print("I am HERE")
+
+  # This works
+  #rscala::scalaEval(s,'val out = "xyz"')
   
   # This doesn't work?!
   rscala::scalaEval(s,'val out = Hello.hello("Arthur")')
-  #rscala::scalaEval(s,'val out = "Arthur"')
-  rscala::scalaGet(s,"out")
+
+  return(rscala::scalaGet(s,"out"))
 }
