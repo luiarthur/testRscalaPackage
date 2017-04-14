@@ -3,5 +3,5 @@ hello <- function(x) {
   #' @export
   #print(paste("Hello",x))
   
-  s%~%'Hello.hello("asd")'
+  testRscalaPackage::s%~%'Hello.hello("asd")'
 }
