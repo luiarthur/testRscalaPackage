@@ -1,3 +1,4 @@
 .onLoad <- function(libname, pkgname) {
-  rscala::.rscalaPackage("hello")
+  print("Loading Hello")
+  rscala::.rscalaPackage("Hello")
 }
