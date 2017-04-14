@@ -15,8 +15,6 @@ First, install the required packages by:
 install.packages("devtools")
 library(devtools)
 install_github("hadley/devtools") # a newer version
-library("devtools")
-devtools::install_github("klutometis/roxygen")
 ```
 
 To generate the directory structure of your package,
