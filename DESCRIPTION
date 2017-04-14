@@ -11,4 +11,5 @@ Depends:
 Imports: rscala
 License: What license is it under?
 RoxygenNote: 6.0.1.9000
+SystemRequirements: Scala (>= 2.11)
 
