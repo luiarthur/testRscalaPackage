@@ -48,7 +48,7 @@ The file contains only the line `roxygen2::roxygenise()`
 
 # Publish -> install -> load library
 
-- Publish the package with a `git push`.  
+- Publish the package with a `git push`
 - Install the library by doing this in R
 ```R
 # install.packages("devtools")
@@ -57,5 +57,9 @@ library(testRscalaPackage)
 ```
 
 You are ready to use your library
+
+```R
+hello("Arthur")
+```
 
 
