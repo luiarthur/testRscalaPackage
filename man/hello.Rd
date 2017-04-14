@@ -4,7 +4,7 @@
 \alias{hello}
 \title{hello}
 \usage{
-hello(x)
+hello()
 }
 \description{
 hello
