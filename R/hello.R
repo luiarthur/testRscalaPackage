@@ -4,5 +4,5 @@ hello <- function(x) {
 
   #rscala::scalaEval(s,paste0('val out = Hello.hello("@{x}")'))
   #return(rscala::scalaGet(s,"out"))
-  rscala::`%~%`(s,'Hello.hello("@{x}")')
+  rscala::`%~%`(testRscalaPackage::s,'Hello.hello("@{x}")')
 }
