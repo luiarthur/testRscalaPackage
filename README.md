@@ -13,6 +13,8 @@ First, install the required packages by:
 
 ```R
 install.packages("devtools")
+library(devtools)
+install_github("hadley/devtools") # a newer version
 library("devtools")
 devtools::install_github("klutometis/roxygen")
 ```
