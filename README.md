@@ -17,7 +17,11 @@ devtools::install_github("klutometis/roxygen")
 ```
 
 To generate the directory structure of your package,
-execute in R `devtools::create("myfirstpackage")`
+execute in R 
+
+```R
+devtools::create("myfirstpackage")
+```
 
 Make sure to provide a title in each of the R files in the
 `R` directory. You do this by adding the comments
