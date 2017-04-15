@@ -1,5 +1,6 @@
 .onLoad <- function(libname, pkgname) {
   #print("Loading Hello")  
-  print(system("pwd",intern=TRUE))
+  print(find.package(libname))
+  print(find.package(pkgname))
   rscala::.rscalaPackage(pkgname)
 }
